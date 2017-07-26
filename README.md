@@ -1,2 +1,2 @@
 # image-crawlers-js
-通过调用PyQt的Webkit内核，实现对包含JavaScript内容的网页的爬取
+支持从百度图片爬图片，使用时将urlDir改为对应的搜索结果（传统翻页模式）的前缀，并在主程序for i in range(0,15)处设定需要爬的页范围，上述例子会爬0~15页，300张图片
